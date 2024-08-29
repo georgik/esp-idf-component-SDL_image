@@ -1,0 +1,12 @@
+## IDF Component Manager Manifest File
+
+description: SDL_image 3.0
+license: Zlib
+url: https://github.com/libsdl-org/SDL_image
+repository: https://github.com/georgik/esp-idf-component-SDL_image
+version: 3.0.0~1
+
+dependencies:
+  ## Required IDF version
+  idf:
+    version: ">=5.0.0"
