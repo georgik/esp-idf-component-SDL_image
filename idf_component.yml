@@ -7,8 +7,8 @@ repository: https://github.com/georgik/esp-idf-component-SDL_image
 version: 3.0.0~1
 
 dependencies:
-  georgik/sdl:
-    git: https://github.com/georgik/esp-idf-component-SDL.git
+  georgik/sdl: ">=3.0.0"
+  #  git: https://github.com/georgik/esp-idf-component-SDL.git
   ## Required IDF version
   idf:
     version: ">=5.0.0"
