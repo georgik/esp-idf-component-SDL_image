@@ -3,7 +3,7 @@
 license: Zlib
 repository: https://github.com/georgik/esp-idf-component-SDL_image
 url: https://github.com/libsdl-org/SDL_image
-version: 3.2.4~1
+version: 3.2.4~2
 
 description: SDL_image 3.2.4 - Image loading library for SDL3 (ESP-IDF wrapper)
 
