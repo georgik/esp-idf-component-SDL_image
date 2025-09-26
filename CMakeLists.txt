@@ -1,5 +1,13 @@
-
-idf_component_register(SRCS
-                        "SDL_image/src/IMG_bmp.c"
-                    INCLUDE_DIRS "SDL_image/include"
+idf_component_register(
+    SRCS
+        "SDL_image/src/IMG.c"
+        "SDL_image/src/IMG_bmp.c"
+        "SDL_image/src/IMG_png.c"
+        "SDL_image/src/IMG_stb.c"
+        "SDL_image/src/IMG_jpg.c"
+        "SDL_image/src/IMG_gif.c"
+    INCLUDE_DIRS 
+        "SDL_image/include"
+    REQUIRES
+        georgik__sdl
 )

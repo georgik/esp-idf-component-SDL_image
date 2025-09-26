@@ -1,14 +1,31 @@
 ## IDF Component Manager Manifest File
 
-description: SDL_image 3.0
 license: Zlib
-url: https://github.com/libsdl-org/SDL_image
 repository: https://github.com/georgik/esp-idf-component-SDL_image
-version: 3.0.0~1
+url: https://github.com/libsdl-org/SDL_image
+version: 3.2.4~1
+
+description: SDL_image 3.2.4 - Image loading library for SDL3 (ESP-IDF wrapper)
 
 dependencies:
-  georgik/sdl: ">=3.0.0"
-  #  git: https://github.com/georgik/esp-idf-component-SDL.git
-  ## Required IDF version
+  georgik/sdl: ">=3.3.0"
   idf:
-    version: ">=5.0.0"
+    version: ">=5.5.0"
+
+files:
+  exclude:
+  - ".github/**/*"
+  - "SDL_image/.git/**/*"
+  - "SDL_image/.wikiheaders-options"
+  - "SDL_image/.gitmodules"
+  - "SDL_image/Android.mk"
+  - "SDL_image/VisualC*/**/*"
+  - "SDL_image/Xcode/**/*"
+  - "SDL_image/build-scripts/**/*"
+  - "SDL_image/cmake/**/*"
+  - "SDL_image/docs/**/*"
+  - "SDL_image/examples/**/*"
+  - "SDL_image/test/**/*"
+  - "SDL_image/mingw/**/*"
+  - "SDL_image/external/**/*"
+  - "SDL_image/VisualC-WinRT/**/*"
